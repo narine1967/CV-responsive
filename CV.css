@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@media (min-width: 480px) {
+
+  .container {
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+        border: 1px solid black;
+    }
+
+.main  {
+        border: 1px solid black;
+        display: flex;
+        height: 25vh;
+        
+}
+
+}
+
+.container  {
+    flex-direction: column;
+}
+
+.div1 {
+   flex-wrap: wrap;
+   flex: 4;
+}
+.div2 {
+    flex-wrap: wrap;
+    flex: 4;
+}
+.div3 {
+    flex-wrap: wrap;
+    flex: 4;
+}
+.div4 {
+    flex-wrap: wrap;
+    flex: 4;
+}
+
+.container .div1, .div2, .div3, .div4 {
+    flex-direction: row;
+    border: 1px solid grey;
+    padding: 5px;
+    margin: 3px;
+    width:100vw;
+    height: 10vh;
+    justify-content: center;
+    justify-items:  center;
+    
+}
+.div1, .div2, .div3, .div4 {
+    color: blue;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.div3 a::before {
+    content: '\0028 044\0029  999-707';
+}
+/* .dv4 a::before {
+    content: 'narine.tsaturyan.67@mail.ru';
+} */
+
+
+.main {
+    flex-wrap: wrap;
+    /* justify-content: flex-end;
+    height: 50%; */
+  
+}
+
+
+.main .two div {
+    flex-direction: row;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    width: 40vw;
+    min-width: 500px;
+    height: 5vh;
+    margin: 5px;
+    justify-content: flex-end;
+    justify-items:  center;
+    align-content: center;
+    color: blue;
+}
+.one {
+     justify-self: center;
+    justify-content: start; 
+    flex: 1;
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:  30px;
+    color: blue;
+    padding: 20px;
+}
+
+.two {
+    flex: 2;
+    background-color: azure;
+    height: 25vh;  
+    padding: 10px;
+
+}
